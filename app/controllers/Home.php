@@ -4,7 +4,14 @@ class Home extends Controller
 {
     public function index($a = '', $b = '', $c = '')
     {
-        echo "This is the home controller";
+        $model = new Model;
+
+        $arr['name'] = 'Marry';
+        $arr['age'] = 50;
+
+        $result = $model->update(2, $arr);
+        
+        show($result);
 
         $this->view('home');
     }
