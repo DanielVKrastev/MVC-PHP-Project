@@ -1,8 +1,10 @@
 <?php
 
+namespace Controller;
+
 defined('ROOTPATH') OR exit('Access Denied!');
 
-Trait Controller
+Trait MainController
 {
 
     public function view($name){

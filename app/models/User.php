@@ -1,4 +1,6 @@
 <?php
+//$user = new \Model\User;
+namespace Model;
 
 defined('ROOTPATH') OR exit('Access Denied!');
 
